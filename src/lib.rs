@@ -602,8 +602,8 @@ pub use oauth2::{
 ///
 /// Public re-exports of types used for HTTP client interfaces.
 ///
-pub use oauth2::http;
-pub use oauth2::url;
+// pub use oauth2::http;
+// pub use oauth2::url;
 
 #[cfg(all(feature = "curl", not(target_arch = "wasm32")))]
 pub use oauth2::curl;
